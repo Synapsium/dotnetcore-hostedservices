@@ -1,4 +1,4 @@
-namespace DotNetCore.HostedServices.Common
+namespace DotNetCore.HostedServices.Core
 {
     public abstract class CommonService : ICommonService
     {

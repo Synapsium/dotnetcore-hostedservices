@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DotNetCore.HostedServices.Core</id>
+    <version>0.0.1</version>
+    <authors>Nicolas Law-dune</authors>
+    <owners>Nicolas Law-dune</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/Synapsium/dotnetcore-hostedservices</projectUrl>
+    <iconUrl>https://secure.gravatar.com/avatar/360629ad5395e5cbf3b0932e388cd3dc?s=200</iconUrl>
+    <description>Library for hosted services build as Windows services and Linux daemon</description>
+    <tags>AspNetCore Hosted services MicroServices Windows services Linux daemon</tags>
+    <license type="file">LICENSE.txt</license>
+    <repository type="git" url="https://github.com/Synapsium/dotnetcore-hostedservices" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Configuration" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.2.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

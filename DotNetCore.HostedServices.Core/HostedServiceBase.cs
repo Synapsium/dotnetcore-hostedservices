@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DotNetCore.HostedServices.Common
+namespace DotNetCore.HostedServices.Core
 {
     public abstract class HostedServiceBase : CommonService, IHostedService
     {

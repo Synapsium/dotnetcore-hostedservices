@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1</Version>
+    <PackageId>DotNetCore.HostedServices.Core</PackageId>
+    <PackageDescription>Library to build services as Windows services and Linux daemon</PackageDescription>
+    <PackageProjectUrl>https://github.com/Synapsium/dotnetcore-hostedservices</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Synapsium/dotnetcore-hostedservices</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIconUrl>https://secure.gravatar.com/avatar/360629ad5395e5cbf3b0932e388cd3dc?s=200</PackageIconUrl>
+    <PackageTags>AspNetCore;Hosted services;MicroServices;Windows services; Linux daemon</PackageTags>
+    <Authors>Nicolas Law-dune</Authors>
+    <Company>Synapsium</Company>
+  </PropertyGroup>
+
+  <ItemGroup>  
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />  
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />  
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.2.0" />  
+  </ItemGroup>
+
+</Project>
